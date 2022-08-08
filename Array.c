@@ -38,3 +38,19 @@ int Array_Search(int * arr,int size,int num)
     return index;
 
 }
+
+/****************************************************************************************/
+/*C function to return the sum of all elements of array*/
+/***************************************************************************************/
+int Array_Sum(int *arr,int size)
+{
+    int sum = 0,i;
+    for(i=0; i<size; i++)
+    {
+        sum+=arr[i];
+    }
+    return sum;
+
+}
+
+
